@@ -137,7 +137,7 @@ applesbananascheese
 [comment]: # Note on this section. There's a good chance we'll cover parameters earlier with either `console.log` or string methods, but I typed it out here for clarity's sake.
 
 
-Neat! That might be a good way to log things sometimes. However, `applesbananascheese` isn't exactly the most readable thing is it? What if we want to put a space in between each word? Luckily, the join method takes a **parameter** or **argument** (these are synonymous terms, but we'll use parameter from now on for simplicity's sake). We'll get into these 'parameters' more later on, but essentially a parameter is the **input** that a method takes. In the join method's case, its parameter is a string. Take a look at this:
+Neat! That might be a good way to log things sometimes. However, `applesbananascheese` isn't exactly the most readable thing is it? What if we want to put a space in between each word? Luckily, the join method takes a **parameter** or **argument** (these are synonymous terms, but we'll use parameter from now on for simplicity's sake). We'll get into these 'parameters' more later on, but essentially a parameter is the **input** that a method takes. In the join method's case, its parameter is whatever string we "pass" to it. Take a look at this:
 
 Code:
 ```
@@ -150,7 +150,7 @@ Output:
 apples bananas cheese
 ```
 
-Can you spot the difference from our last code snippet? Here, we are putting a string with a single blank space into the parentheses of our join method. In the parentheses is where we put values we want to input into a method. We'll go over how this actually works in later checkpoints, but for now, what you need to understand is that whatever string you feed join as a parameter will be inserted in between each element to create our final string. Here's a more fun example:
+Can you spot the difference from our last code snippet? Here, we are putting a string with a single blank space into the parentheses of our join method. Inside the parentheses is where we put values we want to input into a method. We'll go over how this actually works in later checkpoints, but for now, what you need to understand is that whatever string you feed `.join` as a parameter will be inserted in between each element to create our final string. Here's a more fun example:
 
 Code:
 ```
@@ -167,11 +167,11 @@ apples :) bananas :) cheese
 1. Defined a variable containing an array of four strings. You can name the variable whatever you'd like, and the strings can contain any words or phrases you'd like.
 2. `console.log` joining the elements of the array together with one blank space in between them.
 3. `console.log` joining the elements of the array together with whatever string you'd like to add!
-4. Define a variable containing a string (any string). With this new variable as the **parameter** (input) of your join function, `console.log` joining the array together.
+4. Define a variable containing a string (any string). Use this new variable as the **parameter** (input) of your join function, and `console.log` joining the array together.
 
 ## Push, Pop, Shift, and Unshift
 
-Push and pop are sort of opposites, like + and - are. Push adds a value to the end of your array, and pop removes the last element from the array. I like thinking of push as adding a new item to the bottom of a list, and pop as deleting it. Push takes your new item as a **parameter**. Pop takes no parameters at all.
+Push and pop are sort of opposites, like + and - are. Push adds a value to the end of your array, and pop removes the last element from the array. I like thinking of push as adding a new item to the bottom of a list, and pop as deleting it. Push takes your new value as a **parameter**. Pop takes no parameters at all.
 
 Code:
 ```
